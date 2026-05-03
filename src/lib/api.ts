@@ -1,4 +1,4 @@
-const BASE = import.meta.env.VITE_API_URL || "http://localhost:3001";
+const BASE = import.meta.env.VITE_API_URL || "https://job-tracker-backend-production-9f07.up.railway.app/";
 
 export type JobStatus = "applied" | "screening" | "interview" | "offer" | "rejected" | "withdrawn";
 
